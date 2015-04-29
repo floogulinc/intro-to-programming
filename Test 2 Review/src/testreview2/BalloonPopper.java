@@ -6,7 +6,9 @@ public class BalloonPopper {
 		
 		Balloon b = new Balloon();
 		
+		b.setAir(0);
 		int a = b.getAir();
+		b.setThickness(20);
 		double t = b.getThickness();
 		
 		for(a = 0; a < 100; a++) {
@@ -16,7 +18,6 @@ public class BalloonPopper {
 			}
 		}
 		
-		t = 20;
 		while(t > 10) {
 			t =- 1.5;
 			if(t < 12) {
