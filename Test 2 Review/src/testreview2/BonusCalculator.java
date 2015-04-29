@@ -18,15 +18,10 @@ public class BonusCalculator {
 		double income = (double) Integer.parseInt(askfor(user_input, "What is your income?"));
 		double result = income * 0.1;
 		
-		if(teacher && (income > 50000)) {
-			System.out.println("you are doing good for a teacher");
-		} else if(teacher || (income > 50000)) {
-			System.out.println("you are either a poor teacher or a rich other");
-		} else if(!teacher && (income < 50000)) {
-			System.out.println("you are a poor student");
-		} else if(!teacher || (income < 50000)) {
-			System.out.println("you are either a rich student or a poor person");
-		}
+		if(teacher && (income > 50000)) System.out.println("you are doing good for a teacher");
+		else if(teacher || (income > 50000)) System.out.println("you are either a poor teacher or a rich other");
+		else if(!teacher && (income < 50000)) System.out.println("you are a poor student");
+		else if(!teacher || (income < 50000)) System.out.println("you are either a rich student or a poor person");
 
 	}
 
