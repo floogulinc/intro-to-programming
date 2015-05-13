@@ -30,13 +30,22 @@ public class TestPlatypus {
 		//I can assign variables in a superclass using a ref variable of the subclass
 		
 		Animal ap = new Platypus();
-		ap.eat();
-		ap.shed();
+		ap.eat(); //The Platypus eats
+		ap.shed(); //The Mammal sheds
 		ap.legs = 4;
 		//ap.hairtype is unavailable
 		
 		//Platypus pa = new Animal();
 		//Wont work
+		
+		Platypus p1 = new Platypus();
+		p1.eat(); //The Platypus eats
+		p1.eat('a'); //The Platypus eats (char)
+		p1.eat(2); //The Platypus eats (int)
+		p1.eat(2, 3.14); //The Platypus eats (int, double)
+		p1.eat(3.14, 2); //The Platypus eats (double, int)
+		p1.eat("text"); //The Platypus eats (String)
+		
 	}
 
 }
