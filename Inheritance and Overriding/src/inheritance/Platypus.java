@@ -7,7 +7,7 @@ public class Platypus extends FreakOfNature {
 		System.out.println("The Platypus eats");
 	}
 	
-	//overloading
+	//Overloading
 	public void eat(char c){
 		System.out.println("The Platypus eats (char)");
 	}

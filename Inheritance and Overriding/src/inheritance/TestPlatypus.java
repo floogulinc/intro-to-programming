@@ -38,6 +38,7 @@ public class TestPlatypus {
 		//Platypus pa = new Animal();
 		//Wont work
 		
+		//Overloading
 		Platypus p1 = new Platypus();
 		p1.eat(); //The Platypus eats
 		p1.eat('a'); //The Platypus eats (char)
