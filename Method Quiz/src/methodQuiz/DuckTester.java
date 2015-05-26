@@ -10,19 +10,9 @@ public class DuckTester {
 		paul.size = 30;
 		paul.age = 2;
 		
-		paul.duckQuack();
+		paul.duckQuack(); //Quack Quack, I'm a duck and my age is 2 years, and I am 30 feet tall
 		
-		paul.duckRun(25);
-	
-		/*
-		try {
-			java.awt.Desktop.getDesktop().browse(java.net.URI.create("https://en.wikipedia.org/wiki/Duck"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		*/
-		
-
+		paul.duckRun(25); //I run at a speed of 25 mph
 
 		long a = 1000;
 		char x = '$';

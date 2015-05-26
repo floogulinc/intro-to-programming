@@ -8,7 +8,7 @@ public class TestCat {
 
 		Cat paul = new Cat();
 		
-		paul.meow();
+		paul.meow(); //Hey, I'm a cat. feed me and then go away
 		
 		paul.myname(JOptionPane.showInputDialog("What is my name?"));
 		paul.myage(Integer.parseInt(JOptionPane.showInputDialog("What is my age?")));

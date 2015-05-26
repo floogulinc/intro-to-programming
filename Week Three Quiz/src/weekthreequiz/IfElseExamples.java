@@ -16,7 +16,7 @@ public class IfElseExamples {
 		double y = b / d;
 		
 		if(bool == true){
-			System.out.println("Turns out it was all true");
+			System.out.println("Turns out it was all true"); //Turns out it was all true
 		}
 		
 		if(x < 10) {
@@ -24,7 +24,7 @@ public class IfElseExamples {
 		} else if (x == 10){
 			System.out.println("x is equal to 10 buddy");
 		} else {
-			System.out.println("Woah, slow down friend, x is pretty big");
+			System.out.println("Woah, slow down friend, x is pretty big"); //Woah, slow down friend, x is pretty big
 		}
 
 	}

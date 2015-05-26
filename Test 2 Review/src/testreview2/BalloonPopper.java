@@ -13,7 +13,7 @@ public class BalloonPopper {
 		
 		for(a = 0; a < 100; a++) {
 			if(a == 7) {
-				System.out.println("the balloon popped");
+				System.out.println("the balloon popped"); //the balloon popped
 				break;
 			}
 		}
@@ -21,7 +21,7 @@ public class BalloonPopper {
 		while(t > 10) {
 			t =- 1.5;
 			if(t < 12) {
-				System.out.println("the balloon popped");
+				System.out.println("the balloon popped"); //the balloon popped
 				break;
 			}
 		}

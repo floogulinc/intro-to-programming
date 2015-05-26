@@ -14,7 +14,7 @@ public class ArrayListPractice {
 		list.add(2);
 		list.add(87);
 		
-		System.out.println("size is " + list.size());
+		System.out.println("size is " + list.size()); //size is 5
 		
 		for(int i = 0; i < list.size(); i++) {
 			System.out.println("Element " + i + " value: " + list.get(i));

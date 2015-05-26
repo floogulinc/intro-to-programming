@@ -7,7 +7,7 @@ public class CatTestDrive {
 		c.size = 30;
 		c.color = "Orange";
 		
-		c.meow();
+		c.meow(); //MEOW
 
 	}
 

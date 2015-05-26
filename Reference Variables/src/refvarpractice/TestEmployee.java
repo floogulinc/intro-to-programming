@@ -10,13 +10,13 @@ public class TestEmployee {
 		linda = new Employee(100000, 15000);
 		john = new Employee(200000, 0);
 
-		alex.calculatetotalpay();
-		linda.calculatetotalpay();
-		john.calculatetotalpay();
+		alex.calculatetotalpay(); //110000.0
+		linda.calculatetotalpay(); //115000.0
+		john.calculatetotalpay(); //200000.0
 		
 		Employee x = alex;
 		
-		x.calculatetotalpay();
+		x.calculatetotalpay(); //110000.0
 
 	}
 
