@@ -2,6 +2,9 @@ package ninjaturtles;
 
 import java.util.Scanner;
 
+import utils.Colors;
+import utils.TurtleNames;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -10,9 +13,11 @@ public class Test {
 		
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("Please enter your ninja turtle's name: Mikey, Donny, Raph, or Leo");
+		System.out.println("Please enter your ninja turtle's name: " + TurtleNames.LIST);
 		String myTurtle = s.next();
-		n.setName(myTurtle);
+		s.close();
+		n.setName(myTurtle); //make first letter uppercase
+		
 		System.out.println("your turtle's name is " + n.getName());
 		
 		if(n.getName().equals("Mikey")) {
@@ -41,8 +46,8 @@ public class Test {
 			}
 		}
 		
-		n.defeatEnemy();
-		n.eat("Cheese");
+		n.defeatEnemy(); //You used your Swords to defeat the Shredder
+		n.eat("Cheese"); //Your turtle eats a Cheese pizza in victory
 		
 	}
 

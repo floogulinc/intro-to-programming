@@ -1,5 +1,7 @@
 package ninjaturtles;
 
+import utils.TurtleNames;
+
 public class NinjaTurtle extends Turtle implements Ninja {
 	
 	public NinjaTurtle(int legs, int shellsize) {
@@ -36,5 +38,23 @@ public class NinjaTurtle extends Turtle implements Ninja {
 	public void defeatEnemy() {
 		System.out.println("You used your " + weapon + " to defeat the Shredder");
 	}
+
+	/* (non-Javadoc)
+	 * @see ninjaturtles.Turtle#setName(java.lang.String)
+	 */
+	@Override
+	public void setName(String name) {
+		if(name.equalsIgnoreCase("Mikey")) super.setName(TurtleNames.MIKEY);
+		else if(name.equalsIgnoreCase("Donny")) super.setName(TurtleNames.DONNY);
+		else if(name.equalsIgnoreCase("Raph")) super.setName(TurtleNames.RAPH);
+		else if(name.equalsIgnoreCase("Leo")) super.setName(TurtleNames.LEO);
+		else {
+			System.out.println("Please enter " + TurtleNames.LIST);
+			System.out.println("Exiting Application");
+			System.exit(0);
+		}
+	}
+	
+	
 
 }
