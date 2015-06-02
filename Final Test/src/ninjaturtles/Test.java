@@ -16,20 +16,20 @@ public class Test {
 		System.out.println("Please enter your ninja turtle's name: " + TurtleNames.LIST);
 		String myTurtle = s.next();
 		s.close();
-		n.setName(myTurtle); //make first letter uppercase
+		n.setName(myTurtle);
 		
 		System.out.println("your turtle's name is " + n.getName());
 		
-		if(n.getName().equals("Mikey")) {
+		if(n.getName().equals(TurtleNames.MIKEY)) {
 			System.out.println("You equip nunchuks on your turtle");
 			n.weapon = "Nunchuks";
-		} else if(n.getName().equals("Raph")) {
+		} else if(n.getName().equals(TurtleNames.RAPH)) {
 			System.out.println("You equip Psais on your turtle");
 			n.weapon = "Psais";
-		} else if(n.getName().equals("Donny")) {
+		} else if(n.getName().equals(TurtleNames.DONNY)) {
 			System.out.println("You equip a staff on your turtle");
 			n.weapon = "Staff";
-		} else if(n.getName().equals("Leo")){
+		} else if(n.getName().equals(TurtleNames.LEO)){
 			System.out.println("You equip Swords you will never use on your turtle");
 			n.weapon = "Swords";
 		}
